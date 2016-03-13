@@ -94,7 +94,7 @@ function incompleteSetup() {
   );
 }
 
-
+// parses active sheet into json and uploads it
 function exportJson() {
   var sheet = SpreadsheetApp.getActiveSheet();
   var rows = sheet.getDataRange();
